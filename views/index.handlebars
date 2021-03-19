@@ -1,8 +1,8 @@
-<h1>Burgers!</h1>
+{{!-- <h1>Burgers!</h1>
 
 <h2>Burgers ready to be eaten!</h2>
 
-{{!-- <ul>
+<ul>
     {{#each burgers}}
     {{#unless devoured}}
     <li>
@@ -50,3 +50,58 @@
 
     <button type="submit">Add Burger</button>
 </form> --}}
+
+<div class="jumbotron">
+  <h1>Eat-Da-Burger!</h1>
+</div>
+
+<div class="burgerBackground">
+  <div class="container">
+    <div class="card">
+      <div class="card-header">Select a burger to devour</div>
+      <div class="card-body">
+        <ul>
+          {{#each burgers}}
+          {{#unless devoured}}
+
+
+          {{> burgers/burger-block devoured=true}}
+          {{/unless}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Burgers you ate:</div>
+      <div class="card-body">
+        <ul>
+
+          {{#each burgers}}
+          {{#if devoured}}
+          {{> burgers/burger-block devoured=false}}
+          {{/if}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Add a burger:</div>
+      <div class="card-body">
+        <ul>
+          <form class="create-form">
+
+            <div class="form-group">
+              <label for="bu">Burger Name:</label>
+              <input type="text" id="bu" name="name">
+            </div>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-primary" type="submit">Add Burger</button>
+      </div>
+      </form>
+      </ul>
+    </div>
+  </div>
+</div>
