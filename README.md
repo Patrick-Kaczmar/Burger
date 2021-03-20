@@ -20,7 +20,7 @@ After you have installed the packages, run the program with "node server" and si
 This application is used entirely through the inquirer module, so once you have started the program you will recieve prompts you must either select from a list of options or answers you can input yourself. Once you have created or deleted data, the console will confirm that the task was complete with a confirm message. To exit the program simply click the "Exit" option from the starting list of options.
 
 ## Demonstration
-![example-readme-demo](./assets/Employee-tracker-demo.gif)
+![example-readme-demo](./public/assets/css/burger-demo.gif)
 
 ## License
 MIT License - Copyright 2021 Patrick-Kaczmar
