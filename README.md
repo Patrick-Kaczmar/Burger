@@ -3,21 +3,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This application allows the user to create and manipulate data that is used to organize company information. You are able to create departments, Roles and employee's in a structured way that will allow you to view all this data in readable format. The data created is stored in a mysql database, and by using querries to join the data we are able to view any correlating information regarding the company.
+This application lets the user create a new burger and save it to a list of un-eaten or eaten burgers. You may also delete it from either list if you no longer want it there.
+The purpose of this application was to implement the MVC approach while building the file structures to keep the code isolated and organised.
 
 ## Table of Contents
-* [Installation](#Installation)
 * [Usage](#Usage)
 * [Demonstration](#Demonstration)
 * [License](#License)
 * [Questions](#Questions)
 
-## Installation
-Once you have a copy of this repository, run "npm install" in the terminal to download the Packages you will need. These include the "inquirer" and "mysql" modules.
-After you have installed the packages, run the program with "node server" and simply follow the command prompts to create, view, update or delete data.
-
 ## Usage
-This application is used entirely through the inquirer module, so once you have started the program you will recieve prompts you must either select from a list of options or answers you can input yourself. Once you have created or deleted data, the console will confirm that the task was complete with a confirm message. To exit the program simply click the "Exit" option from the starting list of options.
+Type in a new burger name in the input field and click the add burger button to append it to the burger list. Use the eat button to add it to the eaten list and the delete button to remove it from the database.
 
 ## Demonstration
 ![example-readme-demo](./public/assets/css/burger-demo.gif)
