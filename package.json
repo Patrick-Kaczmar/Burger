@@ -1,5 +1,5 @@
 {
-  "name": "Burger",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Patrick-Kaczmar/Burger#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
     "mysql": "^2.18.1"
