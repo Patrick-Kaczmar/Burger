@@ -67,19 +67,18 @@ let orm = {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";
-        queryString += objToSql(objColVals);
-        queryString += " WHERE ";
-        queryString += condition;
+        queryString += "devoured=" + objColVals;
+        queryString += " WHERE id=" + condition;
 
         console.log(queryString);
         connection.query(queryString, function (err, result) {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
+
 
     delete: function (table1, filters, cb) {
         let query = "DELETE FROM ?? WHERE ?";
