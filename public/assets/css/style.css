@@ -1,17 +1,13 @@
-.burgerBackground {
-  background-image: url("../img/burger_bg.jpg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  padding-top: 40px;
-  margin: 0em;
-  width: 100%;
-  height: auto;
-  background-size: 100% 100%;
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0rem;
+  background-color: #d373ff;
 }
 
-.jumbotron {
-  margin-bottom: 0rem;
-  background-color: #ebe8c1;
+.container{
+  padding-top: 20px;
+  text-align: center;
+  z-index: 0;
 }
 
 .card {
@@ -19,7 +15,6 @@
   margin-right: auto;
   margin-bottom: 10px;
   opacity: 0.8;
-
 }
 
 .card-header {
@@ -28,8 +23,24 @@
 
 li {
   line-height: 40px;
+  list-style: none;
 }
 h1 {
   color: #54110b;
   text-align: center;
+}
+
+#picture{
+  background-image: url("./burger-flat.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  padding-top: 260px;
+  margin-left: 43%;
+  width: 50%;
+  height: auto;
+  z-index: 1;
+}
+
+body{
+  background-color: rgb(156, 248, 220);
 }
