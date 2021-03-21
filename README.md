@@ -15,6 +15,8 @@ The purpose of this application was to implement the MVC approach while building
 ## Usage
 Type in a new burger name in the input field and click the add burger button to append it to the burger list. Use the eat button to add it to the eaten list and the delete button to remove it from the database.
 
+### Deployed application link - https://radiant-spire-13817.herokuapp.com/
+
 ## Demonstration
 ![example-readme-demo](./public/assets/css/burger-demo.gif)
 
